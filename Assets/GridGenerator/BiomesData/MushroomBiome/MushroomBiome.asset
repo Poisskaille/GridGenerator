@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1dd023458539d4a896585e9d2a1545, type: 3}
+  m_Name: MushroomBiome
+  m_EditorClassIdentifier: 
+  effectFinished: 0
+  biomeScale: 10
+  minimum: 1
+  _walkableMaterial: {fileID: 2100000, guid: e810a4cdbbca3c64bbf342ad4fcce397, type: 2}
+  _nonWalkableMaterial: {fileID: 2100000, guid: 014d6be8f8354854b969b6c4148d385e, type: 2}
+  _audioSong: {fileID: 8300000, guid: 104a155a14e73bb42a8eda87028eed70, type: 3}
+  _obstaclesPrefab: []

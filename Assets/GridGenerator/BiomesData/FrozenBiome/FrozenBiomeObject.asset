@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d429c32f4ab1fcc46a2e18d20af01b0d, type: 3}
+  m_Name: FrozenBiomeObject
+  m_EditorClassIdentifier: 
+  biomeScale: 5
+  minimum: 0
+  _walkableMaterial: {fileID: 2100000, guid: ae9b18704bb44494aa657e408b4187b0, type: 2}
+  _nonWalkableMaterial: {fileID: 2100000, guid: 014d6be8f8354854b969b6c4148d385e, type: 2}
+  _audioSong: {fileID: 8300000, guid: 747a945de715643448541ca803b25c8e, type: 3}
+  _obstaclesPrefab:
+  - prefab: {fileID: 8696482617218564254, guid: 4e4ae207bef64494986ca3bfeed90b05, type: 3}
+    weight: 6
+  - prefab: {fileID: 5990300224523370596, guid: c111c627cabadd74b95c42ca886351ee, type: 3}
+    weight: 7
+  - prefab: {fileID: 4283429878576995869, guid: 8f45cc4a1e2e2ed42a7d686054a0437e, type: 3}
+    weight: 10
+  - prefab: {fileID: 2196600302573777373, guid: 35cb40a8633fa9640aae958f1e2c97c0, type: 3}
+    weight: 15
